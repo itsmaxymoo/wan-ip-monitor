@@ -54,6 +54,7 @@ def send_email_notification(new_ip):
         sender = os.getenv('EMAIL_FROM', smtp_user)
         network_name = os.getenv('NETWORK_NAME', 'your network')
         use_starttls = os.getenv('SMTP_USE_STARTTLS', 'true').lower() == 'true'
+        use_auth = os.getenv('SMTP_USE_AUTH', 'true').lower() == 'true'
 
         if not all([smtp_host, smtp_port, recipient]):
             print("[ERROR] Missing SMTP configuration.")
@@ -66,7 +67,8 @@ def send_email_notification(new_ip):
         with smtplib.SMTP(smtp_host, smtp_port) as server:
             if use_starttls:
                 server.starttls()
-            server.login(smtp_user, smtp_pass)
+            if use_auth:
+                server.login(smtp_user, smtp_pass)
             server.sendmail(sender, [recipient], message)
             print(f"[INFO] Email notification sent to {recipient}.")
     except Exception as e:
