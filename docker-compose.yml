@@ -1,0 +1,8 @@
+services:
+  wan-ip-monitor:
+    build: .
+    container_name: wan-ip-monitor
+    env_file: .env
+    # volumes:
+    #   - ./ip.txt:/ip.txt
+    restart: always
