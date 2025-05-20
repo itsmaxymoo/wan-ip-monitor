@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.6...v1.0.7) (2025-05-20)
+
+
+### Bug Fixes
+
+* make login optional ([df3414f](https://github.com/itsmaxymoo/wan-ip-monitor/commit/df3414fae9de194955eeda430989f32400ff7222))
+
 ## [1.0.6](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.5...v1.0.6) (2025-05-20)
 
 
