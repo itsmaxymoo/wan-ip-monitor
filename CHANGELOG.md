@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.2...v1.0.3) (2025-05-20)
+
+
+### Bug Fixes
+
+* make /ip.txt the real file ([4cb8ad7](https://github.com/itsmaxymoo/wan-ip-monitor/commit/4cb8ad708f9a6bc4572b83416edac54f8f262998))
+* Use ghcr docker image ([682428c](https://github.com/itsmaxymoo/wan-ip-monitor/commit/682428c67c542e041397bc8d1c88d8bc5bfc9d2a))
+
 ## [1.0.2](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.1...v1.0.2) (2025-05-20)
 
 
