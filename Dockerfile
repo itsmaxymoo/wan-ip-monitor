@@ -11,7 +11,7 @@ WORKDIR /app
 COPY wan_ip_monitor.py ./
 COPY requirements.txt ./
 
-RUN touch /app/ip.txt
+RUN touch /ip.txt
 RUN ln -s /ip.txt /app/ip.txt
 
 # Install required packages
