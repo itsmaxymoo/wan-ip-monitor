@@ -11,7 +11,8 @@ WORKDIR /app
 COPY wan_ip_monitor.py ./
 COPY requirements.txt ./
 
-RUN ln -s /app/ip.txt /ip.txt
+RUN touch /app/ip.txt
+RUN ln -s /ip.txt /app/ip.txt
 
 # Install required packages
 RUN pip install --no-cache-dir -r requirements.txt
