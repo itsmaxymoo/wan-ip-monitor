@@ -11,3 +11,7 @@ A tool for homelabbers to act as a "half-measure" for dynamic DNS. It will check
 ## Notes
 
 * You can mount `/ip.txt` somewhere to use it outside of this program. The IP is printed to this file in plain text without a trailing newline.
+
+## Example
+
+![Example email notification](docs/demo.jpg)
