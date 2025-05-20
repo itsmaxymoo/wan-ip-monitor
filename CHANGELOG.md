@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.5...v1.0.6) (2025-05-20)
+
+
+### Bug Fixes
+
+* add support for unencrypted servers ([cbdae73](https://github.com/itsmaxymoo/wan-ip-monitor/commit/cbdae7381406ac956782356efd10830192658459))
+
 ## [1.0.5](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.4...v1.0.5) (2025-05-20)
 
 
