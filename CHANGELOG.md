@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.4...v1.0.5) (2025-05-20)
+
+
+### Bug Fixes
+
+* remove unnecessary smtp requirement ([9cdb08e](https://github.com/itsmaxymoo/wan-ip-monitor/commit/9cdb08ebcfc874f76f55439354c1e01246c0e07f))
+
 ## [1.0.4](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.3...v1.0.4) (2025-05-20)
 
 
