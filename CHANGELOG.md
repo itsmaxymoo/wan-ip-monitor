@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.2](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.1...v1.0.2) (2025-05-20)
+
+
+### Bug Fixes
+
+* use PAT ([83c0df4](https://github.com/itsmaxymoo/wan-ip-monitor/commit/83c0df4159710e6e28c7308f640f59ad6586b0c5))
+* use PAT ([6c1d759](https://github.com/itsmaxymoo/wan-ip-monitor/commit/6c1d75962ab9c2a199d697a99ebde25703f8411e))
+* use ssh deploy key ([9197b8e](https://github.com/itsmaxymoo/wan-ip-monitor/commit/9197b8efc4ce9bb12d52d03dcb2f8df3a21e7ccd))
+* use ssh deploy key ([a670d89](https://github.com/itsmaxymoo/wan-ip-monitor/commit/a670d895de082c81636b0f12c27f6bdfab0d5523))
+
 ## [1.0.1](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.0...v1.0.1) (2025-05-20)
 
 
