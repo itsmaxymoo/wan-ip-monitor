@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.3...v1.0.4) (2025-05-20)
+
+
+### Bug Fixes
+
+* ip.txt location ([4ff9a89](https://github.com/itsmaxymoo/wan-ip-monitor/commit/4ff9a89cf9aa92a607650960c04d8c498c79fe97))
+
 ## [1.0.3](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.2...v1.0.3) (2025-05-20)
 
 
