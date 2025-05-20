@@ -1,6 +1,6 @@
 services:
   wan-ip-monitor:
-    build: .
+    image: ghcr.io/itsmaxymoo/wan-ip-monitor:latest
     container_name: wan-ip-monitor
     env_file: .env
     # volumes:
