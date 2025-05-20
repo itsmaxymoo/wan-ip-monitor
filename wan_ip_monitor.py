@@ -54,7 +54,7 @@ def send_email_notification(new_ip):
         sender = os.getenv('EMAIL_FROM', smtp_user)
         network_name = os.getenv('NETWORK_NAME', 'your network')
 
-        if not all([smtp_host, smtp_port, smtp_user, smtp_pass, recipient]):
+        if not all([smtp_host, smtp_port, recipient]):
             print("[ERROR] Missing SMTP configuration.")
             return
 
