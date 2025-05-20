@@ -53,6 +53,7 @@ def send_email_notification(new_ip):
         recipient = os.getenv('EMAIL_TO')
         sender = os.getenv('EMAIL_FROM', smtp_user)
         network_name = os.getenv('NETWORK_NAME', 'your network')
+        use_starttls = os.getenv('SMTP_USE_STARTTLS', 'true').lower() == 'true'
 
         if not all([smtp_host, smtp_port, recipient]):
             print("[ERROR] Missing SMTP configuration.")
@@ -63,7 +64,8 @@ def send_email_notification(new_ip):
         message = f"Subject: {subject}\nFrom: WAN IP Monitor <{sender}>\nTo: {recipient}\n\n{body}"
 
         with smtplib.SMTP(smtp_host, smtp_port) as server:
-            server.starttls()
+            if use_starttls:
+                server.starttls()
             server.login(smtp_user, smtp_pass)
             server.sendmail(sender, [recipient], message)
             print(f"[INFO] Email notification sent to {recipient}.")
