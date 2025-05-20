@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.8](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.7...v1.0.8) (2025-05-20)
+
+
+### Bug Fixes
+
+* add image to docs ([ca8f00e](https://github.com/itsmaxymoo/wan-ip-monitor/commit/ca8f00e781668222475e7ba1405e0071f7a6bef2))
+* clarify mount usage in docs ([15e382a](https://github.com/itsmaxymoo/wan-ip-monitor/commit/15e382ab61ed5cebd4e6425ed898d813201da395))
+
 ## [1.0.7](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.6...v1.0.7) (2025-05-20)
 
 
