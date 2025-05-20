@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1](https://github.com/itsmaxymoo/wan-ip-monitor/compare/v1.0.0...v1.0.1) (2025-05-20)
+
+
+### Bug Fixes
+
+* add more details to readme ([b469f73](https://github.com/itsmaxymoo/wan-ip-monitor/commit/b469f73363dd69c337146844c302c94aadbf4e16))
+* change deploy type to release ([0291c43](https://github.com/itsmaxymoo/wan-ip-monitor/commit/0291c437c080b0e781f8c37f8d24b51fe510e746))
+* remove redundant ghcr.io ([3e3e78a](https://github.com/itsmaxymoo/wan-ip-monitor/commit/3e3e78a6242816eccb06833ccd49102bc56b6d69))
+
 ## 1.0.0 (2025-05-20)
 
 
